@@ -1,5 +1,5 @@
 import express from 'express';
-import { upload } from '../index.js';
+import { upload } from '../middleware/upload.js';
 import { extractText } from '../utils/fileParser.js';
 import { generateSummary } from '../services/aiService.js';
 
